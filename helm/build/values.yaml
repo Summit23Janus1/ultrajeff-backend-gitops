@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: ultrajeff
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/ultrajeff-backend
+  org: Summit23Janus1
+  name: ultrajeff-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ultrajeff/poi-backend-app
+  tag: latest
